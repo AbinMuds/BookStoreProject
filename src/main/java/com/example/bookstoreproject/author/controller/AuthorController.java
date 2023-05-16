@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/v1/authors")
+@RequestMapping("api/v1/authors1")
 public class AuthorController {
     @Autowired
     private AuthorService authorService;
